@@ -146,6 +146,14 @@
             </video>
           </div>
         </section>
+        <!-- LBM -->
+        <section>
+          <h3>Fluid-grain systems</h3>
+          <br />
+          <figure>
+            <img style="border:0;" src="images/fluid-grain-methods.png" width="100%">
+          </figure>
+        </section>
         <!-- LBM MRT -->
         <section>
           <h2> Lattice Boltzmann - MRT </h2>
@@ -188,6 +196,20 @@
               <figcaption style="font-size: 80%; text-align: center;">
                 Collision
               </figcaption>
+            </figure>
+          </div>
+        </section>
+        <!-- Hydraulic radius -->
+        <section>
+          <h2>Hydrodynamic radius</h2>
+          <div style="float: left; width: 37%;">
+            <figure>
+              <img style="border:0;" src="images/hydrodynamic_radius.png" width="80%">
+            </figure>
+          </div>
+          <div style="float: right; width: 57%;">
+            <figure>
+              <img style="border:0;" src="images/carman.png" width="100%">
             </figure>
           </div>
         </section>
@@ -343,7 +365,7 @@
         <!-- Collapse of a 0.8 on slopes: loose v dense -->
         <section>
           <h2>Loose v dense: Initiation phase</h2>
-          <div style="float: left; width: 49%; broder:0">
+          <div style="float: left; width: 49%; border:0">
             <figure>
               <img style="border:0;" src="images/pwp_histogram_loose.png" width="100%">
               <figcaption style="font-size: 80%; text-align: center; ">Loose</figcaption>
@@ -368,7 +390,7 @@
         <!-- Collapse of a 0.8 on slopes: loose v dense -->
         <section>
           <h2>Loose v dense: Runout phase</h2>
-          <div style="align=center; width: 100%; broder:0">
+          <div style="align=center; width: 100%; border:0">
             <figure>
               <img style="border:0;" src="images/slope5_loose_15d_water_entrainment.png" width="60%">
               <figcaption style="font-size: 80%; text-align: center; ">Loose</figcaption>
@@ -421,6 +443,151 @@
             <li> Speedup = 125x on a Pascal P100</li>
         </section>
       </section>
+      <section>
+        <!-- Multiphase LBM -->
+        <section>
+          <h2>Multiphase LBM</h2>
+          <div style="float: left; width: 49%; border:0">
+            <figure>
+              <img style="border:0;" src="images/eos.png" width="100%">
+              <figcaption style="font-size: 80%; text-align: center; ">Pressure-Density relation</figcaption>
+            </figure>
+          </div>
+          <div style="float: right; width: 49%;">
+            <figure>
+              <img style="border:0;" src="images/pressure-density.png" width="100%">
+              <figcaption style="font-size: 80%; text-align: center; ">Co-existance temperature</figcaption>
+            </figure>
+          </div>
+        </section>
+        <!-- Multiphase LBM phase transformation -->
+        <section>
+          <h2>Multiphase LBM</h2>
+          <video width="100%" controls loop>
+            <source src="media/3d-lbm-multiphase.webm" type="video/webm">
+          </video>
+        </section>
+        <!-- Multiphase LBM -->
+        <section>
+          <h2>Multiphase LBM: Effect of varying the contact angle</h2>
+          <div style="float: left; width: 33%; border:0">
+            <figure>
+              <img style="border:0;" src="images/lbm-hydrophilic.gif" width="100%">
+              <figcaption style="font-size: 80%; text-align: center; ">Fully hydrophilic surface <br />(θ = 0°)
+              </figcaption>
+            </figure>
+          </div>
+          <div style="float: left; width: 33%;">
+            <figure>
+              <img style="border:0;" src="images/lbm-hydrophobic.gif" width="100%">
+              <figcaption style="font-size: 80%; text-align: center; ">Fully hydrophobic surface <br />(θ = 180°)
+              </figcaption>
+            </figure>
+          </div>
+          <div style="float: left; width: 33%;">
+            <figure>
+              <img style="border:0;" src="images/lbm-neutral.gif" width="100%">
+              <figcaption style="font-size: 80%; text-align: center; ">Neutral surface <br />(θ = 90°)</figcaption>
+            </figure>
+          </div>
+        </section>
+        <!-- Multiphase LBM phase transformation -->
+        <section>
+          <h2>Multiphase LBM: SWRC on spheres</h2>
+          <figure>
+            <img style="border:0;" src="images/imbition-spheres.gif" width="70%">
+          </figure>
+        </section>
+        <!-- Multiphase LBM phase transformation -->
+        <section>
+          <h2>Multiphase LBM: SWRC on spheres</h2>
+          <figure>
+            <img style="border:0;" src="images/3dcluster.png" width="60%">
+          </figure>
+        </section>
+        <!-- Multiphase LBM phase transformation -->
+        <section>
+          <h2>Multiphase LBM: SWRC on spheres</h2>
+          <div style="float: left; width: 47%;">
+            <figure>
+              <img style="border:0;" src="images/3dclusters.gif" width="100%">
+            </figure>
+          </div>
+          <div style="float: right; width: 47%;">
+            <figure>
+              <img style="border:0;" src="images/cluster.gif" width="100%">
+            </figure>
+          </div>
+        </section>
+        <!-- Multiphase LBM -->
+        <section>
+          <h2>Multiphase LBM: Effect of porosity</h2>
+          <div style="float: left; width: 47%; border:0">
+            <figure>
+              <img style="border:0;" src="images/swrc.png" width="100%">
+              <figcaption style="font-size: 80%; text-align: center; ">SWRC</figcaption>
+            </figure>
+          </div>
+          <div style="float: right; width: 47%; border: 0;">
+            <figure>
+              <img style="border:0;" src="images/sr_nclusters.png" width="100%">
+              <figcaption style="font-size: 80%; text-align: center; ">Sr vs number of clusters</figcaption>
+            </figure>
+          </div>
+        </section>
+        <!-- Multiphase LBM sphere -->
+        <section>
+          <h2>Multiphase LBM: Capillary structures</h2>
+          <figure>
+            <img style="border:0;" src="images/capillary-structures.png" width="100%">
+            <figcaption style="font-size: 80%; text-align: center; ">Neutral surface <br />(θ = 90°)</figcaption>
+          </figure>
+        </section>
+        <!-- Multiphase LBM Hysteresis -->
+        <section>
+          <h2>Multiphase LBM: Hysteresis</h2>
+          <figure>
+            <img style="border:0;" src="images/hysteresis.png" width="100%">
+          </figure>
+        </section>
+        <!-- Multiphase LBM Hysteresis-->
+        <section>
+          <h2>Multiphase LBM: Hysteresis</h2>
+          <div style="float: left; width: 47%; border:0">
+            <figure>
+              <img style="border:0;" src="images/imbition.png" width="100%">
+              <figcaption style="font-size: 80%; text-align: center; ">imbition</figcaption>
+            </figure>
+          </div>
+          <div style="float: right; width: 47%; border: 0;">
+            <figure>
+              <img style="border:0;" src="images/drainage.png" width="100%">
+              <figcaption style="font-size: 80%; text-align: center; ">drainage</figcaption>
+            </figure>
+          </div>
+        </section>
+        <!-- Multiphase LBM Hysteresis -->
+        <section>
+          <h2>Multiphase LBM: Hysteresis in spherical grains</h2>
+          <figure>
+            <img style="border:0;" src="images/hysteresis-cycles-spheres.png" width="70%">
+          </figure>
+        </section>
+        <!-- Multiphase LBM Hysteresis -->
+        <section>
+          <h2>Multiphase LBM: Hysteresis in Hamburg sand</h2>
+          <figure>
+            <img style="border:0;" src="images/injection-hamburg-sand.gif" width="70%">
+          </figure>
+        </section>
+        <!-- Multiphase LBM Hysteresis -->
+        <section>
+          <h2>Multiphase LBM: Hysteresis in Hamburg sand</h2>
+          <figure>
+            <img style="border:0;" src="images/hamburg-sand-hysteresis.png" width="100%">
+          </figure>
+        </section>
+      </section>
       <!-- Summary -->
       <section>
         <!-- Thank you! -->
@@ -432,7 +599,8 @@
           <br /><br />
           <h2>
             <font color="white">
-              Krishna Kumar
+              Krishna Kumar<br />
+              Rei Hosseini and Qiuyu Wang
             </font>
           </h2>
           <h3>
