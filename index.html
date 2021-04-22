@@ -199,44 +199,6 @@
             </figure>
           </div>
         </section>
-        <!-- Hydraulic radius -->
-        <section>
-          <h2>Hydrodynamic radius</h2>
-          <div style="float: left; width: 37%;">
-            <figure>
-              <img style="border:0;" src="images/hydrodynamic_radius.png" width="80%">
-            </figure>
-          </div>
-          <div style="float: right; width: 57%;">
-            <figure>
-              <img style="border:0;" src="images/carman.png" width="100%">
-            </figure>
-          </div>
-        </section>
-        <!-- LBM-DEM fluid solid coupling -->
-        <section>
-          <h3>LBM-DEM fluid-solid coupling </h3>
-          <div style="float: left; width: 70%;">
-            <figure>
-              <img style="border:0;" src="images/lbm-dem.png" width="70%">
-            </figure>
-            <div class="block">
-              $$\Delta t_{s}=\frac{\Delta t}{\mathit{n}_{s}} \qquad (\mathit{n}_{s}=[\Delta t/ \Delta t_{D}]+1) $$
-            </div>
-            <ul>
-              <li>At every fluid iteration, $\mathit{n}_{s}$
-                sub-steps of DEM iterations are performed using the time step $\Delta t_{s}$.
-              </li>
-              <li>The hydrodynamic force is unchanged during the sub-cycling. </li>
-            </ul>
-          </div>
-          <div style="float: right; width: 30%;">
-            <video id="Kissing" width="50%" controls loop>
-              <source src="media/tumble.webm" type="video/webm">
-              Your browser does not support the video tag.
-            </video>
-          </div>
-        </section>
         <!-- Turulence modeling in LBM -->
         <section>
           <h2>LBM laminar & turbulent flows</h2>
@@ -269,6 +231,44 @@
               Your browser does not support the video tag.
             </video>
             <br />Karman Vortex Street
+          </div>
+        </section>
+        <!-- LBM-DEM fluid solid coupling -->
+        <section>
+          <h3>LBM-DEM fluid-solid coupling </h3>
+          <div style="float: left; width: 70%;">
+            <figure>
+              <img style="border:0;" src="images/lbm-dem.png" width="70%">
+            </figure>
+            <div class="block">
+              $$\Delta t_{s}=\frac{\Delta t}{\mathit{n}_{s}} \qquad (\mathit{n}_{s}=[\Delta t/ \Delta t_{D}]+1) $$
+            </div>
+            <ul>
+              <li>At every fluid iteration, $\mathit{n}_{s}$
+                sub-steps of DEM iterations are performed using the time step $\Delta t_{s}$.
+              </li>
+              <li>The hydrodynamic force is unchanged during the sub-cycling. </li>
+            </ul>
+          </div>
+          <div style="float: right; width: 30%;">
+            <video id="Kissing" width="50%" controls loop>
+              <source src="media/tumble.webm" type="video/webm">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </section>
+        <!-- Hydraulic radius -->
+        <section>
+          <h2>Hydrodynamic radius</h2>
+          <div style="float: left; width: 37%;">
+            <figure>
+              <img style="border:0;" src="images/hydrodynamic_radius.png" width="80%">
+            </figure>
+          </div>
+          <div style="float: right; width: 57%;">
+            <figure>
+              <img style="border:0;" src="images/carman.png" width="100%">
+            </figure>
           </div>
         </section>
         <!-- Collapse in a fluid -->
